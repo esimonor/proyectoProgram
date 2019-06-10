@@ -1,0 +1,16 @@
+Crea una clase Persona con los siguientes atributos: nombre, dirección, códigoPostal, ciudad y edad. Los atributos son private.
+ 
+La clase Persona contendrá los siguientes métodos:
+Constructor(nombre,dirección,códigoPostal,ciudad,edad).
+Métodos get y set para todos los atributos.
+Método boolean escorrectocodpostal() que devuelve true si el código postal está comprendido entre 0 y 20000.
+
+La clase Persona se va a utilizar en una clase  MainPersona que pida por teclado los datos de varias personas y las guarde en un ArrayList de objetos de tipo Persona y a continuación muestre información sobre ellas.
+
+A continuación del método MainPersona se escribirá el código del resto de métodos:
+Método  void leerPersonas(): pide por teclado los datos de las personas y las añade al arrayList. El usuario decide cuántas personas se introducen.
+Método void mostrar(): Recorre el arrayList y muestra los datos de todas las personas introducidas.
+Método int cuantasPersonasVivenEn(String): método que recibe el nombre de una población	y devuelve cuántas de esas personas viven en ella.
+Método cuantoscódigospostalesbuenos(): método que devuelve cuántas de esas personas tienen un código postal válido, tendrá que llamar al método escorrectocodpostal() de la clase Persona.
+
+Realiza las llamadas a los métodos desde MainPersona y organiza mediante un menú todas las opciones .
